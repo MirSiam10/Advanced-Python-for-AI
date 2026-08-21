@@ -1,3 +1,6 @@
+
+'''M1. Write an async function batch_embed(texts: list[str]) -> list[list[float]] that takes a list of strings and "fetches" an embedding for each one concurrently. Each individual embed call should take 0.5 seconds. Time the difference between sequential and concurrent approaches for 5 texts.'''
+
 import asyncio
 import time
 
